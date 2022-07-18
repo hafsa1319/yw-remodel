@@ -84,7 +84,7 @@
       "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
     },
     "favicon": false,
-    "mbrsiteDomain": "ftq3utglir",
+    "mbrsiteDomain": "hvjx9rhdok",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -95,7 +95,10 @@
       "name": "",
       "icon": "@PROJECT_PATH@/assets/images/logo-removebg-preview-512x512.png",
       "themeColor": "#6ec7f2"
-    }
+    },
+    "global_header_custom": "<script>\n    !function (f, b, e, v, n, t, s) {\n        if (f.fbq) return; n = f.fbq = function () {\n            n.callMethod ?\n            n.callMethod.apply(n, arguments) : n.queue.push(arguments)\n        }; if (!f._fbq) f._fbq = n;\n        n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;\n        t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)\n    }(window,\n    document, 'script', '//connect.facebook.net/en_US/fbevents.js');\n\nfbq('init', '%MerchantId%');\nfbq('track', 'PageView');\n%TEMPLATE_DYNAMIC_CODE%\n</script>\n<noscript>\n    <img height=\"1\" width=\"1\" style=\"display:none\"\n    src=\"https://www.facebook.com/tr?id=%MerchantId%&ev=PageView&noscript=1\" />\n</noscript>\n\n<script>\nwindow.dataLayer = window.dataLayer || [];\n%TEMPLATE_DYNAMIC_CODE%\n</script>\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','%MerchantId%');</script>\n<!-- End Google Tag Manager -->\n\n<script src=\"https://cdn.gravitec.net/storage/40414399d53c3549d4811ca1dd5bf77f/client.js\" async></script>\n",
+    "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=%MerchantId%\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n\n<script async src=\"https://cdn.onthe.io/io.js/asxhhPfzrP5i\"></script>",
+    "site_lang": "en"
   },
   "pages": {
     "index.html": {

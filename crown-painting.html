@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  >
+<html  lang="en">
 <head>
   
   <meta charset="UTF-8">
@@ -29,7 +29,40 @@
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
-  
+  <script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        }; if (!f._fbq) f._fbq = n;
+        n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+    }(window,
+    document, 'script', '//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '%MerchantId%');
+fbq('track', 'PageView');
+%TEMPLATE_DYNAMIC_CODE%
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=%MerchantId%&ev=PageView&noscript=1" />
+</noscript>
+
+<script>
+window.dataLayer = window.dataLayer || [];
+%TEMPLATE_DYNAMIC_CODE%
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','%MerchantId%');</script>
+<!-- End Google Tag Manager -->
+
+<script src="https://cdn.gravitec.net/storage/40414399d53c3549d4811ca1dd5bf77f/client.js" async></script>
+
   
 
 <meta name="theme-color" content="#6ec7f2">
@@ -47,7 +80,12 @@
 <meta name="apple-mobile-web-app-title" content="">
 <link rel="apple-touch-icon" href="apple-touch-icon.png"></head>
 <body>
-  
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=%MerchantId%"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script async="" src="https://cdn.onthe.io/io.js/asxhhPfzrP5i"></script>
   <section data-bs-version="5.1" class="menu menu1 cid-tbYoWiRoIM" once="menu" id="amenu1-18">
     
 
