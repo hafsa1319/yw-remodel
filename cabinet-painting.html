@@ -21,7 +21,8 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/web/assets/gdpr-plugin/gdpr-styles.css">
   <link rel="stylesheet" href="assets/chatbutton/floating-wpp.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/popup-overlay-plugin/style.css">
+    <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -64,7 +65,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://cdn.gravitec.net/storage/40414399d53c3549d4811ca1dd5bf77f/client.js" async></script>
 
   
-</head>
+<meta name="theme-color" content="#6ec7f2">
+<link rel="manifest" href="manifest.json">
+<script src="sw-connect.js"></script>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-640x1136.png">
+<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-750x1334.png">
+<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="assets/images/apple-launch-1242x2208.png">
+<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="assets/images/apple-launch-1125x2436.png">
+<link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-1536x2048.png">
+<link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-1668x2224.png">
+<link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-2048x2732.png">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="">
+<link rel="apple-touch-icon" href="apple-touch-icon.png"></head>
 <body>
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=%MerchantId%"
@@ -116,10 +130,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item dropdown"><a class="nav-link link text-info dropdown-toggle display-4" href="aboutus.html#content03-e" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-info text-primary display-4" href="index.html#aheader3-v">Home</a></li><li class="nav-item dropdown"><a class="nav-link link text-info dropdown-toggle display-4" href="aboutus.html#content03-e" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
                             About us</a><div class="dropdown-menu" aria-labelledby="dropdown-565"><a class="text-info dropdown-item text-primary display-4" href="privacy-policy.html#content03-q">Privacy Policy</a><a class="text-info show dropdown-item text-primary display-4" href="conditionsofuse.html#content03-t">Conditions of Use</a></div></li>
                     <li class="nav-item"><a class="nav-link link text-info text-primary display-4" href="index.html#features3-1c">
-                            Services</a></li><li class="nav-item"><a class="nav-link link text-info text-primary display-4" href="index.html#gallery4-1f">Refereces</a></li>
+                            Services</a></li><li class="nav-item"><a class="nav-link link text-info text-primary display-4" href="index.html#gallery4-1f">Refereces</a></li><li class="nav-item"><a class="nav-link link text-info text-primary display-4" href="index.html#gallery4-1f">Blog</a></li>
                     
                     <li class="nav-item"><a class="nav-link link text-info display-4" href="contactus.html#contacts05-h">Contacts</a>
                     </li></ul>
@@ -199,12 +213,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div id="bootstrap-toggle" class="toggle-panel accordionStyles tab-content">
                     <div class="card">
                         <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_27" aria-expanded="false" aria-controls="collapse1">
+                            <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_139" aria-expanded="false" aria-controls="collapse1">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-4">Which Paint is Used for Painting Kitchen Cabinets?</h6>
                                 <span class="sign mbr-iconfont "></span>
                             </a>
                         </div>
-                        <div id="collapse1_27" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div id="collapse1_139" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-7">The kitchen cabinet can be painted with spray paint, oil paint or acrylic paint in general. When we look at these options, according to the statistical data, the most used paint type for painting kitchen cabinets is acrylic paint. This may be because acrylic paint does not smell and dries quickly.</p>
                             </div>
@@ -212,12 +226,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                     <div class="card">
                         <div class="card-header" role="tab" id="headingTwo">
-                            <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_27" aria-expanded="false" aria-controls="collapse2">
+                            <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_139" aria-expanded="false" aria-controls="collapse2">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-4">How Much Does Painting a Kitchen Cabinet Cost?</h6>
                                 <span class="sign mbr-iconfont"></span>
                             </a>
                         </div>
-                        <div id="collapse2_27" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div id="collapse2_139" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-7">Painting kitchen cabinets has its own cost. Of course, this cost is more economical than replacing the complete kitchen cabinets. You can paint your kitchen cabinets by buying paint yourself. But the important thing here is the combination of the right paint selection and the right craftsmanship. If you do not want the paint fluctuations to remain on the kitchen cabinets, you can get company support in this regard. In this work, yw-remodel.com site will help you with its economical prices.</p>
                             </div>
@@ -225,12 +239,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                     <div class="card">
                         <div class="card-header" role="tab" id="headingThree">
-                            <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_27" aria-expanded="false" aria-controls="collapse3">
+                            <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_139" aria-expanded="false" aria-controls="collapse3">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-4">How to Paint a Ready-made Kitchen Cabinet?</h6>
                                 <span class="sign mbr-iconfont"></span>
                             </a>
                         </div>
-                        <div id="collapse3_27" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div id="collapse3_139" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-7">There are two options for your old kitchen cabinets. The first is to replace complete kitchen cabinets, but the cost of this first option is high. The second is to paint old kitchen cabinets that need a change.</p>
                             </div>
@@ -238,12 +252,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                     <div class="card">
                         <div class="card-header" role="tab" id="headingThree">
-                            <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_27" aria-expanded="false" aria-controls="collapse4">
+                            <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_139" aria-expanded="false" aria-controls="collapse4">
                                 <h6 class="panel-title-edit mbr-fonts-style mb-0 display-4">How Many Coats Are Kitchen Cabinets Painted?</h6>
                                 <span class="sign mbr-iconfont "></span>
                             </a>
                         </div>
-                        <div id="collapse4_27" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div id="collapse4_139" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
                             <div class="panel-body">
                                 <p class="mbr-fonts-style panel-text display-7">
                                     It is enough to paint kitchen cabinets with two coats. Primer should be applied to the first coat, after making sure that the primer has dried thoroughly, the primer should be sanded and the second coat of kitchen cabinet paint should be applied. In this way, a workmanship that is both more durable and gives better results will be realized.</p>
@@ -269,7 +283,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
                 <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                    © Copyright 2022 <a href="index.html#aheader3-v" class="text-primary">Yw-remodel.com</a> - All Rights Reserved
+                    © Copyright 2022 <a href="index.html#aheader3-v" class="text-white">Yw-remodel.com</a> - All Rights Reserved
                 </p>
             </div>
         </div>
@@ -284,7 +298,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <script src="assets/ytplayer/index.js"></script>
   <script src="assets/chatbutton/floating-wpp.js"></script>
   <script src="assets/chatbutton/script.js"></script>
-  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+      <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>
   <script src="assets/theme/js/script.js"></script>
   

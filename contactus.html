@@ -21,7 +21,8 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/web/assets/gdpr-plugin/gdpr-styles.css">
   <link rel="stylesheet" href="assets/chatbutton/floating-wpp.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/popup-overlay-plugin/style.css">
+    <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.css">
   <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.theme.css">
   <link rel="stylesheet" href="assets/datepicker/jquery.datetimepicker.min.css">
@@ -67,7 +68,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://cdn.gravitec.net/storage/40414399d53c3549d4811ca1dd5bf77f/client.js" async></script>
 
   
-</head>
+<meta name="theme-color" content="#6ec7f2">
+<link rel="manifest" href="manifest.json">
+<script src="sw-connect.js"></script>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-640x1136.png">
+<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-750x1334.png">
+<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="assets/images/apple-launch-1242x2208.png">
+<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="assets/images/apple-launch-1125x2436.png">
+<link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-1536x2048.png">
+<link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-1668x2224.png">
+<link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-2048x2732.png">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="">
+<link rel="apple-touch-icon" href="apple-touch-icon.png"></head>
 <body>
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=%MerchantId%"
@@ -119,10 +133,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item dropdown"><a class="nav-link link text-info dropdown-toggle display-4" href="aboutus.html#content03-e" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-info text-primary display-4" href="index.html#aheader3-v">Home</a></li><li class="nav-item dropdown"><a class="nav-link link text-info dropdown-toggle display-4" href="aboutus.html#content03-e" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
                             About us</a><div class="dropdown-menu" aria-labelledby="dropdown-565"><a class="text-info dropdown-item text-primary display-4" href="privacy-policy.html#content03-q">Privacy Policy</a><a class="text-info show dropdown-item text-primary display-4" href="conditionsofuse.html#content03-t">Conditions of Use</a></div></li>
                     <li class="nav-item"><a class="nav-link link text-info text-primary display-4" href="index.html#features3-1c">
-                            Services</a></li><li class="nav-item"><a class="nav-link link text-info text-primary display-4" href="index.html#gallery4-1f">Refereces</a></li>
+                            Services</a></li><li class="nav-item"><a class="nav-link link text-info text-primary display-4" href="index.html#gallery4-1f">Refereces</a></li><li class="nav-item"><a class="nav-link link text-info text-primary display-4" href="index.html#gallery4-1f">Blog</a></li>
                     
                     <li class="nav-item"><a class="nav-link link text-info display-4" href="contactus.html#contacts05-h">Contacts</a>
                     </li></ul>
@@ -203,7 +217,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <div class="container">
         
-        <div class="google-map"><iframe frameborder="0" style="border:0" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" allowfullscreen="" loading="lazy" class="lazyload" data-src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCNveGQ9bfpKFwWzQLLftrR9hNiHwdqQG8&amp;q=18239 Gardens End Ln, Houston, TX 77084, Amerika Birleşik Devletleri"></iframe></div>
+        <div class="google-map"></div>
     </div>
 </section>
 
@@ -214,7 +228,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
                 <!--Formbuilder Form-->
-                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="nNGPFrcYrxAOT7Bvc8ILBGsbN7ybXhWEFCvyV0imSGMdvOUGoE0FWoFQWflI5p/4j8edPxUxPISe6z9yWLOZzAXSwFgUs6m6b34AoZKtoW8EFMlg4y48si1TETZIFHTh.Okkc3SyLhDQidFw9EiXgvQrIBeo16mnMCOsv2PIunpk1Z2SxVLOPAXgWMjLbhG0miRqOTdia4+jAVX+yAkVD5N0ykLsO9jsjW/xZWOZf64z4yiFXeIC2Nzop87KtDfcZ">
+                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="AepjmWoKP4svGxljkPfAx4S7N7R9z/uHvGQ2OVv/Tp3CrnSIgiEIPycEkCL4Dvh1JRyGd2v7GATJ70fQsnR9BKCYlGnzHLMeiPLC+6i5NOTswMgXilb8AzsnQU8zvd6g.oeEu/wSr3fW3V590EBg40VJ/fZ4wM3Y3hmctXdlyRu+3uOQ+193ESdDplaLqjuQteOKLyg7UV8JQU4dSOI9VZulmU07Z/BOkySlMGfO1Ffot+h5CRIZ4DR0LsbrWjWMR">
                     <div class="row">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out
                             the form!</div>
@@ -263,7 +277,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
                 <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                    © Copyright 2022 <a href="index.html#aheader3-v" class="text-primary">Yw-remodel.com</a> - All Rights Reserved
+                    © Copyright 2022 <a href="index.html#aheader3-v" class="text-white">Yw-remodel.com</a> - All Rights Reserved
                 </p>
             </div>
         </div>
@@ -278,7 +292,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <script src="assets/ytplayer/index.js"></script>
   <script src="assets/chatbutton/floating-wpp.js"></script>
   <script src="assets/chatbutton/script.js"></script>
-  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+      <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/formstyler/jquery.formstyler.js"></script>
   <script src="assets/formstyler/jquery.formstyler.min.js"></script>
   <script src="assets/datepicker/jquery.datetimepicker.full.js"></script>
